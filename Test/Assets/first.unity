@@ -1840,6 +1840,7 @@ GameObject:
   - 114: {fileID: 706865900}
   - 114: {fileID: 706865905}
   - 114: {fileID: 706865904}
+  - 114: {fileID: 706865906}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1933,8 +1934,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9136c369d7414f749aa08c6e3532c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 0}
-  GOkey: {fileID: 0}
 --- !u!114 &706865905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1946,8 +1945,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9136c369d7414f749aa08c6e3532c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 0}
-  GOkey: {fileID: 0}
+--- !u!114 &706865906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 706865899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b404d2246e5c84999f55df47fb28d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventary: {fileID: 0}
+  titleKey: 
 --- !u!1 &740561077
 GameObject:
   m_ObjectHideFlags: 0
@@ -4147,13 +4157,26 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: c369869189aea5b46bc65cc26f4dec11, type: 3}
   m_PrefabInternal: {fileID: 1005125203}
---- !u!114 &1531173558
+--- !u!114 &1531173556
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1531173555}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b404d2246e5c84999f55df47fb28d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventary: {fileID: 1694019491}
+  titleKey: Icons/KeyOrange
+--- !u!114 &1531173558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1531173555}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 359f9a55b62e4ea4fab1cd27831d643c, type: 3}
   m_Name: 
@@ -4378,6 +4401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 292324de17a1f214a92b3f749faf170b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  list: []
   inventary: {fileID: 39526219}
   containerImageCell: {fileID: 1000011148899816, guid: 54e44a42b8a1d574dae41f037f5afc9e,
     type: 2}

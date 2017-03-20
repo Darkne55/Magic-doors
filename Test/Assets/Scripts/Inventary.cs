@@ -5,29 +5,28 @@ using UnityEngine.UI;
 
 public class Inventary : MonoBehaviour {
 
-    List<Item> list;
+    public List<Item> list;
     public GameObject inventary;
     public GameObject containerImageCell;
-
     
-	// Use this for initialization
+	
 	void Start () {
-	    list = new List<Item>();
+	    list = new List<Item>(); // Список инвентаря
 	}
 	
-	// Update is called once per frame
+	
 	void Update () {
-	    if(Input.GetMouseButtonUp(1))
+	    if(Input.GetMouseButtonUp(1)) // Нажатие ПКМ
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); // Построить луч из текущих координат мыши
             RaycastHit hit;  //В результате столкновения с коллайдером, возвращается RaycastHit с координатами и объектом столкновения.
             if (Physics.Raycast(ray, out hit))   //Рейкаст отправляет воображаемый “лазерный луч”
             {
-                Item item = hit.collider.GetComponent<Item>();
+                Item item = hit.collider.GetComponent<Item>(); // Присваиваем item'у префаб и спрайт (скрипт Item)
                 if(item != null)
                 {
-                    list.Add(item);
-                    Destroy(hit.collider.gameObject);
+                    list.Add(item);   // Добавляем item в список инвентаря
+                    Destroy(hit.collider.gameObject); // Удаляем обьект со сцены
                 }
 
             }   
