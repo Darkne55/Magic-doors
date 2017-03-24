@@ -21,18 +21,15 @@ public class orangeKeyChest : MonoBehaviour {
     void OnTriggerEnter(Collider col)
     {
         if (col.tag == player.tag)
-        {
-
-            
+        {           
             int count = inventary.list.Count;
             for (int i = 0; i < count; i++)
             {
                 if (inventary.list[i].sprite == titleKey)
-                {
-                    Debug.Log("Hello");
-
+                {                 
                     GetComponent<chestFirstControl>().enabled = true;
                     GetComponent<chestFirstControl>().OpenChestWithKey();
+                   // inventary.list.Remove(inventary.list[i]);
                 }
             }
         }
