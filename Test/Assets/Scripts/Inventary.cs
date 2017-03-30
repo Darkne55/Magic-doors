@@ -68,6 +68,8 @@ public class Inventary : MonoBehaviour {
                 }
             }
         }
+
+
 	}
 
     void remove(Item it, GameObject obj)
