@@ -28,16 +28,17 @@ public class MouseLookNew : MonoBehaviour {
     public float frameCounter = 20;
 
     Quaternion originalRotation;
-	// Use this for initialization
+
+    Tooltips tooltips;
 	void Start () {
         Rigidbody rb = GetComponent<Rigidbody>();
         if (rb)
             rb.freezeRotation = true;
         originalRotation = transform.localRotation;
-	}
-	
-	// Update is called once per frame
+        Screen.lockCursor = true;
+	}	
 	void Update () {
+        Cursor.visible = true;             
         if (axes == RotationAxes.MouseXAndY)
         {
             rotAverageY = 0f;
