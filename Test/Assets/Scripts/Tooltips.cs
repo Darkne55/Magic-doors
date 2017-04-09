@@ -26,8 +26,11 @@ public class Tooltips : MonoBehaviour {
         //Показываем подсказку и выключаем блок курсора
         if (col.tag == player.tag)
         {
-            triggered = true;
-            Screen.lockCursor = false;
+            if (MenuOpen == true)
+            {
+                triggered = true;
+                Screen.lockCursor = false;
+            }
         }
      }
 
@@ -69,10 +72,8 @@ public class Tooltips : MonoBehaviour {
                     // заполнения пустого пространства между элементами управления
                     GUILayout.FlexibleSpace(); // динамическоем пространство между заголовком и кнопкой старт
 
-                    // отрисовка кнопки Start и обработка ее нажатия
                     if (GUILayout.Button(ButtonText, buttonStyle, GUILayout.MinHeight(buttonMinHeight)))
                     {
-                        // загрузка сцены с именем Level
                         MenuOpen = false;
                         Screen.lockCursor = true;
                     }
