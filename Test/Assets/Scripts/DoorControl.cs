@@ -6,6 +6,7 @@ public class DoorControl : MonoBehaviour {
     GameObject player;
     Animator animator;
     public Inventary inventary;
+    public int level;
 
     private bool timerOn;      // флаг таймера
     private float curr_time;    // время работы таймера  (в кадрах)
@@ -25,7 +26,10 @@ public class DoorControl : MonoBehaviour {
 
             if (curr_time <= 0)   // истекло время - загружаем второй уровень
             {
-                Application.LoadLevel("second");
+                if(level == 2)
+                    Application.LoadLevel("second");
+                else
+                    Application.LoadLevel("third");
                 timerOn = false;  
             }
         }
