@@ -41,7 +41,7 @@ public class DoorControl : MonoBehaviour {
         {
             int count = inventary.list.Count;  // Получаем количество ключей из инвентаря
 
-            if (count == 0) // Если собраны все - открываем дверь
+            if (count == 5) // Если собраны все - открываем дверь
             {           
                 GetComponent<Animator>().enabled = true;
                 timerOn = true;   // включаем таймер параллельно анимации
