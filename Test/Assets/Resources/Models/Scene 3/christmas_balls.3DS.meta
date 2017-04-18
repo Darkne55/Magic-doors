@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: ac9e12ff58e468441921a387626a745f
+timeCreated: 1492424336
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder00
+    100004: Cylinder01
+    100006: Cylinder02
+    100008: Cylinder03
+    100010: Group001
+    100012: Group002
+    100014: Group003
+    100016: Group004
+    100018: Mesher001
+    100020: Mesher001_MeshPart0
+    100022: Mesher001_MeshPart1
+    100024: Mesher002
+    100026: Object002
+    100028: Object002_MeshPart0
+    100030: Object002_MeshPart1
+    100032: Sphere001
+    100034: Sphere003
+    100036: Sphere004
+    100038: Sphere006
+    100040: Star001
+    400000: //RootNode
+    400002: Cylinder00
+    400004: Cylinder01
+    400006: Cylinder02
+    400008: Cylinder03
+    400010: Group001
+    400012: Group002
+    400014: Group003
+    400016: Group004
+    400018: Mesher001
+    400020: Mesher001_MeshPart0
+    400022: Mesher001_MeshPart1
+    400024: Mesher002
+    400026: Object002
+    400028: Object002_MeshPart0
+    400030: Object002_MeshPart1
+    400032: Sphere001
+    400034: Sphere003
+    400036: Sphere004
+    400038: Sphere006
+    400040: Star001
+    2300000: Cylinder00
+    2300002: Cylinder01
+    2300004: Cylinder02
+    2300006: Cylinder03
+    2300008: Mesher001_MeshPart0
+    2300010: Mesher001_MeshPart1
+    2300012: Mesher002
+    2300014: Object002_MeshPart0
+    2300016: Object002_MeshPart1
+    2300018: Sphere001
+    2300020: Sphere003
+    2300022: Sphere004
+    2300024: Sphere006
+    2300026: Star001
+    3300000: Cylinder00
+    3300002: Cylinder01
+    3300004: Cylinder02
+    3300006: Cylinder03
+    3300008: Mesher001_MeshPart0
+    3300010: Mesher001_MeshPart1
+    3300012: Mesher002
+    3300014: Object002_MeshPart0
+    3300016: Object002_MeshPart1
+    3300018: Sphere001
+    3300020: Sphere003
+    3300022: Sphere004
+    3300024: Sphere006
+    3300026: Star001
+    4300000: Sphere001
+    4300002: Cylinder00
+    4300004: Sphere003
+    4300006: Cylinder01
+    4300008: Cylinder02
+    4300010: Sphere004
+    4300012: Mesher001_MeshPart0
+    4300014: Mesher001_MeshPart1
+    4300016: Object002_MeshPart0
+    4300018: Object002_MeshPart1
+    4300020: Star001
+    4300022: Sphere006
+    4300024: Cylinder03
+    4300026: Mesher002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

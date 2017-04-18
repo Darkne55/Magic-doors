@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: aab59a71226adf0419c15a074dcbef1a
+timeCreated: 1492424330
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: floor
+    100002: RUDOLPH_ru
+    100004: //RootNode
+    100006: SLEIG
+    100008: SLEIG1
+    100010: SLEIG10
+    100012: SLEIG11
+    100014: SLEIG12
+    100016: SLEIG13
+    100018: SLEIG14
+    100020: SLEIG15
+    100022: SLEIG16
+    100024: SLEIG17
+    100026: SLEIG2
+    100028: SLEIG3
+    100030: SLEIG4
+    100032: SLEIG5
+    100034: SLEIG6
+    100036: SLEIG7
+    100038: SLEIG8
+    100040: SLEIG9
+    100042: SLEIGH_CON
+    100044: snow1_snow
+    100046: tree
+    100048: tree_tree_
+    400000: floor
+    400002: RUDOLPH_ru
+    400004: //RootNode
+    400006: SLEIG
+    400008: SLEIG1
+    400010: SLEIG10
+    400012: SLEIG11
+    400014: SLEIG12
+    400016: SLEIG13
+    400018: SLEIG14
+    400020: SLEIG15
+    400022: SLEIG16
+    400024: SLEIG17
+    400026: SLEIG2
+    400028: SLEIG3
+    400030: SLEIG4
+    400032: SLEIG5
+    400034: SLEIG6
+    400036: SLEIG7
+    400038: SLEIG8
+    400040: SLEIG9
+    400042: SLEIGH_CON
+    400044: snow1_snow
+    400046: tree
+    400048: tree_tree_
+    2300000: floor
+    2300002: RUDOLPH_ru
+    2300004: SLEIG
+    2300006: SLEIG1
+    2300008: SLEIG10
+    2300010: SLEIG11
+    2300012: SLEIG12
+    2300014: SLEIG13
+    2300016: SLEIG14
+    2300018: SLEIG15
+    2300020: SLEIG16
+    2300022: SLEIG17
+    2300024: SLEIG2
+    2300026: SLEIG3
+    2300028: SLEIG4
+    2300030: SLEIG5
+    2300032: SLEIG6
+    2300034: SLEIG7
+    2300036: SLEIG8
+    2300038: SLEIG9
+    2300040: SLEIGH_CON
+    2300042: snow1_snow
+    2300044: tree
+    2300046: tree_tree_
+    3300000: floor
+    3300002: RUDOLPH_ru
+    3300004: SLEIG
+    3300006: SLEIG1
+    3300008: SLEIG10
+    3300010: SLEIG11
+    3300012: SLEIG12
+    3300014: SLEIG13
+    3300016: SLEIG14
+    3300018: SLEIG15
+    3300020: SLEIG16
+    3300022: SLEIG17
+    3300024: SLEIG2
+    3300026: SLEIG3
+    3300028: SLEIG4
+    3300030: SLEIG5
+    3300032: SLEIG6
+    3300034: SLEIG7
+    3300036: SLEIG8
+    3300038: SLEIG9
+    3300040: SLEIGH_CON
+    3300042: snow1_snow
+    3300044: tree
+    3300046: tree_tree_
+    4300000: RUDOLPH_ru
+    4300002: SLEIGH_CON
+    4300004: SLEIG
+    4300006: SLEIG1
+    4300008: SLEIG2
+    4300010: SLEIG3
+    4300012: SLEIG4
+    4300014: SLEIG5
+    4300016: SLEIG6
+    4300018: SLEIG7
+    4300020: SLEIG8
+    4300022: SLEIG9
+    4300024: SLEIG10
+    4300026: SLEIG11
+    4300028: SLEIG12
+    4300030: SLEIG13
+    4300032: SLEIG14
+    4300034: SLEIG15
+    4300036: SLEIG16
+    4300038: SLEIG17
+    4300040: tree
+    4300042: tree_tree_
+    4300044: floor
+    4300046: snow1_snow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
