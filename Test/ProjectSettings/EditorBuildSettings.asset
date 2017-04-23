@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/second.unity
   - enabled: 1
     path: Assets/third.unity
+  - enabled: 1
+    path: Assets/victory.unity

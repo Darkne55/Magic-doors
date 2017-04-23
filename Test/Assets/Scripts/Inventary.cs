@@ -9,11 +9,9 @@ public class Inventary : MonoBehaviour {
     public GameObject inventary;
     public GameObject containerImageCell;
     
-	
 	void Start () {
 	    list = new List<Item>(); // Список инвентаря
 	}
-	
 	
 	void Update () {
 	    if(Input.GetMouseButtonUp(1)) // Нажатие ПКМ
@@ -28,7 +26,6 @@ public class Inventary : MonoBehaviour {
                     list.Add(item);   // Добавляем item в список инвентаря
                     Destroy(hit.collider.gameObject); // Удаляем обьект со сцены
                 }
-
             }   
         }
 
@@ -68,8 +65,6 @@ public class Inventary : MonoBehaviour {
                 }
             }
         }
-
-
 	}
 
     void remove(Item it, GameObject obj)

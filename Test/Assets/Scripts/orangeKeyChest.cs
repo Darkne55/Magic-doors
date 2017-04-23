@@ -11,12 +11,6 @@ public class orangeKeyChest : MonoBehaviour {
     {
         player = GameObject.FindGameObjectWithTag("Player"); //Обьект игрока
     }
-    
-    void Update()
-    {
-
-       
-    }
 
     void OnTriggerEnter(Collider col)
     {      

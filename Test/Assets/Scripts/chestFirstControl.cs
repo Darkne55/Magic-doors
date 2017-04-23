@@ -5,8 +5,6 @@ public class chestFirstControl : MonoBehaviour {
 
     public bool open = false;
     GameObject player;
-
-
 	
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player"); //Обьект игрока

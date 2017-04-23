@@ -22,14 +22,15 @@ public class DoorControl : MonoBehaviour {
 	    if(timerOn == true)  // отстчет
         {
             curr_time -= 0.5f;
-            Debug.Log(curr_time);
 
             if (curr_time <= 0)   // истекло время - загружаем второй уровень
             {
                 if(level == 2)
                     Application.LoadLevel("second");
-                else
+                else if (level == 3)
                     Application.LoadLevel("third");
+                else
+                    Application.LoadLevel("victory");
                 timerOn = false;  
             }
         }

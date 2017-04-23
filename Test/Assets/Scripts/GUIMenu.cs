@@ -10,11 +10,13 @@ public class GUIMenu : MonoBehaviour {
 
     [Header("Графика")]
     private byte graphicsValue;
+   
 
 
     void Update()
     {
         QualitySettings.SetQualityLevel(graphicsValue);
+
        // Screen.fullScreen = window;
     }
     void OnGUI()
@@ -96,6 +98,7 @@ public class GUIMenu : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
+
 	
 }
